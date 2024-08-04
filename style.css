@@ -1,0 +1,36 @@
+/* imp one to avoid default color */
+/* #password :focus {
+    outline: none;
+  } */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.input:focus {
+  outline: none;
+}
+/* 
+.container {
+  border: 1px solid black;  */
+
+#password {
+  width: 400px;
+  padding: 15px;
+  font-size: 1.5rem;
+  background-color: antiquewhite;
+  border: 2px black;
+  box-shadow: 0 0 10px black;
+  border-radius: 15px;
+}
